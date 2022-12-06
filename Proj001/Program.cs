@@ -13,5 +13,5 @@ if (a>=100 && a<=999 || a<=-100 && a>=-999)
 }
 else
 {
-    Console.Write($"WTF? This number is not three digit!");
+    Console.Write($"WTF? This number is not three-digit!");
 }
