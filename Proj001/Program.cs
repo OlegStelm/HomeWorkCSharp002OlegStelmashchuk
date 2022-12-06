@@ -1,6 +1,6 @@
 ﻿int a;
 
-Console.WriteLine("enter a number: ");
+Console.WriteLine("Enter a three-digit number: ");
 int.TryParse(Console.ReadLine(), out a);
 if (a>=100 && a<=999 || a<=-100 && a>=-999)
 {
@@ -13,5 +13,5 @@ if (a>=100 && a<=999 || a<=-100 && a>=-999)
 }
 else
 {
-    Console.Write($"WTF? This number is not three digits!");
+    Console.Write($"WTF? This number is not three digit!");
 }
